@@ -1,0 +1,117 @@
+* {
+  /*border: 1px solid red;*/
+}
+body {
+  background-color: #0298CD;
+}
+header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: Avenir;
+}
+
+#connectFour{
+  font-size: 50px;
+  color: white;
+  margin-bottom: 0;
+}
+#displayBoard{
+  font-size: 20px;
+  color: white;
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+#navContainer{
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  height: 110px
+}
+#redContainer{
+  transition: all 2s ease;
+  border-bottom: 4px solid white;
+  padding-bottom: 5px;
+}
+#yellowContainer{
+  transition: all 2s ease;
+  border-bottom: 4px solid white;
+  padding-bottom: 5px;
+}
+
+#redPlayer{
+}
+#yellowPlayer{
+}
+
+#scoreBoard{
+  font-family: Avenir;
+  color: white;
+  font-size: 50px;
+  font-weight: bold;
+  margin-top: 25px;
+}
+#resetButton{
+  display: block;
+  font-weight: bold;
+  margin: 0 auto;
+  height: 30px;
+  width: 100px;
+  margin-top: 15px;
+  margin-bottom: 25px;
+  border-radius: 7px;
+  border: none;
+  background-color: lightgrey;
+}
+#resetButton:hover{
+  background-color: tomato;
+}
+
+#boardContainer{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+
+}
+#board{
+}
+
+.filledSquares {
+  height: 100px; width: 100px;
+  background-color: white;
+  border: none;
+  border-radius: 50%;
+  margin: 5px;
+}
+.emptySquares{
+  height: 100px; width: 100px;
+  background-color: white;
+  border: none;
+  border-radius: 50%;
+  margin: 5px;
+}
+.emptySquares:hover{
+  background-color: papayawhip;
+}
+
+.disc{
+  height: 100px; width: 100px;
+  border-radius: 50%;
+}
+
+
+.redDisc{
+  background: #FF0002;
+  height: 100px; width: 100px;
+  border-radius: 50%;
+}
+
+
+.yellowDisc {
+  background: #FFAC02;
+  height: 100px; width: 100px;
+  border-radius: 50%;
+}
